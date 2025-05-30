@@ -1,5 +1,5 @@
 {
-  "name": "react-ts-vite-template",
+  "name": "checkers",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.2.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

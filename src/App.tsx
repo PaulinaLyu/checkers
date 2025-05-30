@@ -1,11 +1,11 @@
-import { Test } from '@/test/Test';
+import { GamePage } from '@/pages';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <div>React TS Vite Template</div>
-      <Test />
-    </>
+    <div className="app__wrapper">
+      <GamePage />
+    </div>
   );
 }
 
