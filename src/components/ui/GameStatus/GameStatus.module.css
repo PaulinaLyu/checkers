@@ -1,0 +1,43 @@
+.statusBox {
+  background-color: #dbeafe;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.statusLabel {
+  font-size: 0.8rem;
+  color: var(--main-color);
+  margin-bottom: 0.25rem;
+}
+
+.hostText {
+  color: var(--host-player-text-color);
+}
+
+.opponentText {
+  color: var(--opponent-player-text-color);
+}
+
+.turnInfo {
+  font-weight: bold;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.turnIcon {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px;
+}
+
+.turnHost {
+  background: var(--host-player-background);
+}
+
+.turnOpponent {
+  background: var(--opponent-player-background);
+}

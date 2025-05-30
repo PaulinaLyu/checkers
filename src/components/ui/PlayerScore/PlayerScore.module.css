@@ -1,0 +1,30 @@
+.player {
+  text-align: center;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+}
+
+.hostIcon {
+  background: var(--host-player-background);
+}
+
+.opponentIcon {
+  background: var(--opponent-player-background);
+}
+
+.score {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.hostScore {
+  color: var(--host-player-text-color);
+}
+
+.opponentScore {
+  color: var(--opponent-player-text-color);
+}

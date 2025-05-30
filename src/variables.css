@@ -1,0 +1,19 @@
+:root {
+  --main-color: #1e40af;
+
+  --section-background-color: #f9fafb;
+  --section-padding: 1rem;
+  --section-border-radius: 0.5rem;
+  --section-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  --section-title-color: var(--main-color);
+  --section-title-font-size: 1.25rem;
+  --section-titile-font-weight: bold;
+  --section-titile-margin-bottom: 1rem;
+
+  --host-player-text-color: #dc2626;
+  --host-player-background: linear-gradient(to bottom right, #ef4444, #b91c1c);
+
+  --opponent-player-text-color: #1f2937;
+  --opponent-player-background: linear-gradient(to bottom right, #1f2937, #000000);
+}
