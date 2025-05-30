@@ -1,4 +1,6 @@
+import { GameStatus } from '@/components/ui';
 import styles from './GameInfo.module.css';
+import { Player } from '@/types';
 
 export const GameInfo = () => {
   return (
@@ -9,7 +11,7 @@ export const GameInfo = () => {
         <div className={styles.vsText}>vs</div>
         Black
       </div>
-      Status
+      <GameStatus currentPlayer={Player.HOST} />
     </div>
   );
 };
