@@ -28,16 +28,16 @@
   gap: 0.5rem;
 }
 
-.turnHost {
+.turnIcon {
   width: 1rem;
   height: 1rem;
   border-radius: 9999px;
+}
+
+.turnHost {
   background: var(--host-player-background);
 }
 
 .turnOpponent {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 9999px;
   background: var(--opponent-player-background);
 }

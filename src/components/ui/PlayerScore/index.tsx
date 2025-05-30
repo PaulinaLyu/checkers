@@ -7,8 +7,9 @@ interface PlayerScoreProps {
 }
 
 export const PlayerScore: React.FC<PlayerScoreProps> = ({ player, score }) => {
-  const iconClass = player === 'host' ? styles.hostIcon : styles.opponentIcon;
-  const scoreClass = player === 'host' ? styles.hostScore : styles.opponentScore;
+  const isHost = player === 'host';
+  const iconClass = isHost ? styles.hostIcon : styles.opponentIcon;
+  const scoreClass = isHost ? styles.hostScore : styles.opponentScore;
 
   return (
     <div className={styles.player}>
