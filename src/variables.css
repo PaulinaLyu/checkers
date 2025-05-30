@@ -1,0 +1,11 @@
+:root {
+  --section-background-color: #f9fafb;
+  --section-padding: 1rem;
+  --section-border-radius: 0.5rem;
+  --section-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  --section-title-color: #1e40af;
+  --section-title-font-size: 1.25rem;
+  --section-titile-font-weight: bold;
+  --section-titile-margin-bottom: 1rem;
+}

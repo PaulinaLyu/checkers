@@ -1,0 +1,26 @@
+.container {
+  background-color: var(--section-background-color);
+  padding: var(--section-padding);
+  border-radius: var(--section-border-radius);
+  box-shadow: var(--section-box-shadow);
+}
+
+.title {
+  font-size: var(--section-title-font-size);
+  font-weight: var(--section-titile-font-weight);
+  margin-bottom: var(--section-titile-margin-bottom);
+  color: var(--section-title-color);
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.vsText {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #4b5563;
+  align-self: center;
+}
