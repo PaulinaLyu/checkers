@@ -1,6 +1,6 @@
 import { GameStatus, PlayerScore } from '@/components/ui';
 import styles from './GameInfo.module.css';
-import { Player } from '@/types';
+import { Player } from '@/types/players';
 
 export const GameInfo = () => {
   return (

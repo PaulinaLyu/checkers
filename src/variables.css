@@ -16,4 +16,7 @@
 
   --opponent-player-text-color: #1f2937;
   --opponent-player-background: linear-gradient(to bottom right, #1f2937, #000000);
+
+  --board-square-dark-color: #1e40af;
+  --board-square-light-color: #fef3c7;
 }

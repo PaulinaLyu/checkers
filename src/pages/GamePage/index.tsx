@@ -1,4 +1,4 @@
-import { GameInfo } from '@/components/sections';
+import { Board, GameInfo } from '@/components/sections';
 import styles from './GamePage.module.css';
 
 export const GamePage = () => {
@@ -9,7 +9,9 @@ export const GamePage = () => {
       </div>
 
       <div className={styles.content}>
-        <div className={styles.board}>Board</div>
+        <div className={styles.board}>
+          <Board />
+        </div>
         <div className={styles.info}>
           <GameInfo />
         </div>
