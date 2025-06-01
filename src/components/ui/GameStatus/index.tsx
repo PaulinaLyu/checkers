@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Player } from '@/types';
+import { Player } from '@/types/players';
 import styles from './GameStatus.module.css';
 
 interface GameStatusProps {

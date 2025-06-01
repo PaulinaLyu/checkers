@@ -1,0 +1,76 @@
+.checker {
+  width: 80%;
+  height: 80%;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.checker::before {
+  content: '';
+  position: absolute;
+  inset: 15%;
+  border-radius: 9999px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.checker::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  transition: transform 0.3s ease;
+}
+
+.host {
+  background: var(--host-checker-background);
+}
+
+.host::before {
+  background: var(--host-checker-before-background);
+}
+
+.host::after {
+  border: var(--host-checker-after-border);
+  box-shadow: var(--host-checker-after-box-shadow);
+}
+
+.opponent {
+  background: var(--opponent-checker-background);
+}
+
+.opponent::before {
+  background: var(--opponent-checker-before-background);
+}
+
+.opponent::after {
+  border: var(--opponent-checker-after-border);
+  box-shadow: var(--opponent-checker-after-box-shadow);
+}
+
+.selected {
+  box-shadow: 0 0 0 4px #facc15;
+  z-index: 20;
+}
+
+.crown {
+  width: 50%;
+  height: 50%;
+  z-index: 10;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.4));
+}
+
+.hostCrown {
+  color: var(--host-crown-color);
+}
+
+.opponentCrown {
+  color: var(--opponent-crown-color);
+}
