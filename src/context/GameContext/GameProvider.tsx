@@ -1,7 +1,7 @@
 import { FC, ReactNode, Dispatch, createContext, useReducer } from 'react';
 import { initialState, State } from './GameInitialState';
 import { Action } from './GameActions';
-import { GameReducer } from './Reducer';
+import { GameReducer } from './reducer';
 
 export const GameContext = createContext<{
   state: State;
