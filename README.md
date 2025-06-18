@@ -1,13 +1,15 @@
-# 🧩 React + TypeScript + Vite Template
+# 🏁 Checkers Game (React + TypeScript)
 
-Готовый шаблон для быстрого старта фронтенд-проектов с использованием:
+Это приложение реализует классическую игру в шашки на платформе React с использованием TypeScript. Логика игры написана с нуля, без сторонних движков.
+
+---
+
+## 📦 Стек технологий
 
 - ⚛️ React
-- ⚡️ Vite
-- 📘 TypeScript
-- 🧹 ESLint
-- 🎨 Prettier
-- 🐶 Husky (pre-commit хуки)
-- 🎯 lint-staged (форматирование и линтинг только изменённых файлов)
+- 💬 TypeScript
+- 🎯 Context API (для управления состоянием)
+- 🧪 Jest + React Testing Library (для тестов)
+- 🧠 Собственная игровая логика (`Board`, `Checker`, `getAvailableCaptures`, `getAvailableMoves`, `initializeBoard`)
 
 ---
