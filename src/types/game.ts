@@ -1,16 +1,10 @@
 import { Player } from './players';
 
-export enum CheckerType {
-  REGULAR = 'REGULAR',
-  KING = 'KING',
-}
+export type Board = (Checker | null)[][];
 
 export interface Checker {
-  type: CheckerType;
+  isKing: boolean;
   player: Player;
 }
 
-export interface Position {
-  row: number;
-  col: number;
-}
+export type Position = [number, number];

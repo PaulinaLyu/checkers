@@ -1,0 +1,34 @@
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.card {
+  background-color: var(--victory-card-background);
+  padding: var(--victory-card-padding);
+  border-radius: var(--victory-card-border-radius);
+  box-shadow: var(--victory-card-box-shadow);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  animation: fadeInScale 0.6s ease-out;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: var(--victory-title-color);
+  word-wrap: break-word;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+  color: var(--victory-message-color);
+}

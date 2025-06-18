@@ -1,0 +1,46 @@
+.button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.newGameBtn {
+  background-color: var(--new-game-btn-background);
+  color: var(--new-game-btn-color);
+}
+
+.newGameBtn:hover:not(.disabled) {
+  background-color: var(--new-game-btn-hover-background);
+}
+
+.undoBtn {
+  background-color: var(--undo-btn-background);
+  color: var(--undo-btn-btn-color);
+}
+
+.undoBtn:hover:not(.disabled) {
+  background-color: var(--undo-btn-hover-background);
+}
+
+.hintBtn {
+  background-color: var(--hint-btn-background);
+  color: var(--hint-btn-btn-color);
+}
+
+.hintBtn:hover:not(.disabled) {
+  background-color: var(--hint-btn-hover-background);
+}
+
+.disabled {
+  background-color: var(--btn-disabled-background);
+  color: var(--btn-disabled-color);
+  cursor: not-allowed;
+}

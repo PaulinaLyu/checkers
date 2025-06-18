@@ -56,13 +56,11 @@
 }
 
 .selected {
-  box-shadow: 0 0 0 4px #facc15;
   z-index: 20;
 }
 
 .crown {
-  width: 50%;
-  height: 50%;
+  position: absolute;
   z-index: 10;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.4));
 }
@@ -73,4 +71,8 @@
 
 .opponentCrown {
   color: var(--opponent-crown-color);
+}
+
+.cursor {
+  cursor: pointer;
 }
